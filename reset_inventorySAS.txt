@@ -1,0 +1,1 @@
+rm -r inventorySAS/migrations && rm db.sqlite3 && python manage.py makemigrations inventorySAS && python manage.py makemigrations && python manage.py migrate && ç
